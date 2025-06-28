@@ -26,4 +26,11 @@ steps:
     npx playwright show-report
   env:
     CI: 'true'  
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: '$(Pipeline.Workspace)'
+    publishLocation: 'pipeline'
+  condition: succeededOrFailed()
+
 
