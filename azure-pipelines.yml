@@ -21,7 +21,6 @@ steps:
   displayName: 'npm install and build'
 - script:
     npx playwright install --with-deps
-    npx playwright install
   displayName: 'Install Playwright'
 - script:
     npx playwright test
