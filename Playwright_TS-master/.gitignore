@@ -5,3 +5,8 @@ REFERENCE_Learning
 playwright-report
 test-results
 allure-results
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
