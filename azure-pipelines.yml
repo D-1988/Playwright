@@ -22,8 +22,6 @@ steps:
   displayName: 'Install Playwright'
 - script:
     npx playwright test
-- script:
-    npx playwright show-report
   env:
     CI: 'true'  
 - task: PublishPipelineArtifact@1
