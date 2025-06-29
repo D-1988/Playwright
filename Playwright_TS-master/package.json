@@ -105,7 +105,7 @@
     "test_folder_KO_Section_06": "playwright test tests/Section_06_KO_API_Tests/*.spec.ts --headed",
     "-----------> Comment #102": "UDEMY - Kaniel Outis (FOLDER wise) - END"
   },
-  "author": "Rajat Verma",
+  "author": "Dipan Dutta",
   "license": "ISC",
   "dependencies": {
     "prettier": "^2.6.2"
